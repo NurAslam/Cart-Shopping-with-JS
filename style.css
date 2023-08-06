@@ -196,4 +196,17 @@ header .btn-buy {
 }
 header .btn-buy:hover {
   background: #1f1235;
+}
+
+.merchandise__section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.merchandise__section .merchandise__container {
+  position: relative;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }/*# sourceMappingURL=style.css.map */

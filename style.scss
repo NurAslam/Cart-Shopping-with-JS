@@ -209,4 +209,19 @@ header {
       background: $color_primary;
     }
   }
+  // Merchandise
+
+}
+
+.merchandise__section{
+  min-height: 100vh ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .merchandise__container{
+    position: relative;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
